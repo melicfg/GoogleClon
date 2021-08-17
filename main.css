@@ -50,3 +50,18 @@ nav .nav-right-section img {
     border-radius: 50%;
     cursor: pointer;
 }
+
+main{
+    margin-top: 10px;
+    text-align: center;
+}
+
+main .main-logo{
+    margin: auto;
+    width: 100%;
+}
+
+main .main-logo img{
+    width: 272px;
+    height: 95px;
+}
