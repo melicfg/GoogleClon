@@ -125,9 +125,31 @@ main .main-input-container .micro-icon {
 }
 
 main .main-buttons {
-    padding: 14px 0px 0px;
+    height: 70px;
+    padding: 18px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
-main button {
-    margin-bottom: 10px;
+main .main-buttons div {
+    display: inline-block;
+    text-align: -webkit-center;
+}
+
+main .main-buttons button {
+    margin: 11px 4px;
+    height: 34px;
+    padding: 0px 16px;
+    outline: none;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
 }
