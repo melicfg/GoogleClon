@@ -11,7 +11,6 @@ a {
 }
 
 header{
-    width: 100%;
     height: 48px;
     padding: 6px;
 }
@@ -29,24 +28,51 @@ header nav .nav-right-section{
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 header nav .nav-right-section a {
-    margin-right: 15px;
+    margin-right: 9px;
     color: black;
+    padding: 4px;
 }
 
-nav .nav-right-section .menu-icon {
-    background-image: url("https://image.flaticon.com/icons/png/512/17/17704.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 17px;
-    height: 17px;
+header nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
+nav .nav-right-section .menu-icon{
+    padding: 12px;
+    width: 16px;
+    height: 16px;
     margin: 0px 8px;
     cursor: pointer;
 }
+
+nav .nav-right-section .menu-icon:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50px;
+}
+
+nav .nav-right-section .menu-icon img {
+    height: 16px;
+    width: 16px;
+    border-radius: 0;
+    align-items: center;
+}
+
+
+nav .nav-right-section .profile-img {
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+}
+
+nav .nav-right-section .profile-img:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50px;
+}
+
 
 nav .nav-right-section img {
     border-radius: 50%;
@@ -97,6 +123,7 @@ main .main-input input {
     outline: none;
     padding: 0;
     border: none;
+    font-size: 14px;
 }
 
 main .main-input-container:hover {
@@ -138,7 +165,7 @@ main .main-buttons div {
 }
 
 main .main-buttons button {
-    margin: 11px 4px;
+    margin: - 4px;
     height: 34px;
     padding: 0px 16px;
     outline: none;
@@ -152,4 +179,58 @@ main .main-buttons button {
 main .main-buttons button:hover {
     border: 1px solid #dadce0;
     box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+main .main-leng a {
+    color: #1a0dab;
+    padding: 0 3px;
+}
+
+main .main-leng a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    background-color: #f2f2f2;
+}
+
+footer .footer-up {
+    height: 17px;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+footer .footer-down {
+    height: 46px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    padding: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-left {
+    margin: 0px;
+    padding: 0px;
 }
